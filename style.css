@@ -1,0 +1,75 @@
+body{
+	background-color: rgb(217, 203, 230);
+	margin: auto;
+}
+
+.Calculator {
+	margin:  auto;
+	margin-top: 10px;
+	border-radius: 10px;
+    width: fit-content;
+	height: fit-content;
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.Calculator__output {
+	padding: 30px;
+	text-align: end;
+	background: hsl(202, 11%, 29%);
+	color: hsl(255, 100%, 100%);
+	width: 83%;
+	
+	border-radius: 10px;
+	border: none;
+}
+
+.Calculator__Keys {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: hsl(208, 24%, 74%);
+	margin-top: 5px;
+	justify-content: space-evenly;
+	
+  }
+.Calculator__Key {
+	background: hsl(210, 25%, 95%);
+	border: none;
+	font-size: 2.5rem;
+	margin: 10px;
+	inline-size: 70px;
+	block-size: 70px;
+	margin: 0.25rem;
+	border-radius: 40px;
+	
+  }
+
+  .row---two,
+  .row---three,
+  .row---four,
+  .row---five{
+	display: flex;
+	justify-content: space-evenly;
+  }
+
+
+
+  .Calculator__Key--enter{
+	width: 90%;
+  }
+
+.Calculator__Key--operator {
+	background: hsl(208, 25%, 86%);
+}
+
+
+.Calculator__Key:active,
+.Calculator__Key:focus{
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;
+    
+}
+
+.calculator__key--operator:active {
+	background: hsl(208, 24%, 80%);
+  }
